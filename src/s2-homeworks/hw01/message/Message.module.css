@@ -1,12 +1,11 @@
 .message {
-  width: 575px;
-  height: 77px;
-  background: burlywood;
+  margin-top: 24px;
 }
 
 .imageAndText {
   display: flex;
-  justify-content: space-between;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .imageAndText img {
@@ -20,7 +19,9 @@
   align-items: flex-end;
   height: 60px;
   background: #0066cc;
-  border-radius: 5px 5px 0px 5px;
+  border-radius: 10px 10px 0px 10px;
+  margin-right: 21px;
+  padding: 7px 14px 8px 13px;
 }
 
 .text:after {
@@ -28,8 +29,8 @@
   border: 12px solid transparent;
   border-bottom: 7px solid #0066cc;
   border-left: 16px solid #0066cc;
-  margin-top: -1px;
-  margin-right: -25px;
+  margin-top: -8px;
+  margin-right: -35px;
 }
 
 .name {
@@ -57,4 +58,8 @@
   font-size: 10px;
   line-height: 12px;
   color: #000000;
+  margin-top: 5px;
+  margin-right: 11px;
+  display: flex;
+  justify-content: flex-end;
 }
