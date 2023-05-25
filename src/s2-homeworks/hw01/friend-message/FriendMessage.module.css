@@ -24,12 +24,11 @@
 }
 
 .friendText:after {
-  position: absolute;
   content: "";
   border: 12px solid transparent;
   border-bottom: 7px solid #f5f7fb;
   border-right: 16px solid #f5f7fb;
-  margin-top: 34px;
+  margin-top: -8px;
   margin-left: -35px;
 }
 
